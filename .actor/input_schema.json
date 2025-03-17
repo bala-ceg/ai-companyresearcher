@@ -1,0 +1,23 @@
+{
+  "title": "LangGraph Agent Python",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "query": {
+      "title": "Company Name",
+      "type": "string",
+      "description": "company_name.",
+      "editor": "textfield",
+      "prefill": "Anthropic",
+      "default": "Anthropic."
+    },
+    "debug": {
+      "title": "Debug",
+      "type": "boolean",
+      "description": "If enabled, the Actor will run in debug mode and produce more output.",
+      "editor": "checkbox",
+      "default": false
+    }
+  },
+  "required": ["query"]
+}
