@@ -3,7 +3,7 @@
   "type": "object",
   "schemaVersion": 1,
   "properties": {
-    "query": {
+    "company_name": {
       "title": "Company Name",
       "type": "string",
       "description": "company_name.",
