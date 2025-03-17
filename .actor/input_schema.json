@@ -19,5 +19,5 @@
       "default": false
     }
   },
-  "required": ["query"]
+  "required": ["company_name"]
 }
